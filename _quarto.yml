@@ -6,11 +6,11 @@ execute:
   echo: true
 
 book:
-  title: "YOUR PROJECT TITLE"
+  title: Evolving Hoops: An Exploratory Data Analysis of Changing Playstyles in the NBA
   author:
-    - AUTHOR1 (UNI1)
-    - AUTHOR2 (UNI2)
-  repo-url: https://github.com/YOUR_GITHUB_ACCOUNT/REPO_NAME
+    - Pranav Kandula (pak2156)
+    - Joshua Mazher (jnm2191)
+  repo-url: https://github.com/kandulapranav/EDAV-Final-Project
   date: today
   page-footer:
     right: |
