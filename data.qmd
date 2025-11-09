@@ -1,5 +1,24 @@
 # Data
 
+```{r}
+library(rvest)     
+library(dplyr)     
+library(janitor)
+library(ggplot2)   
+```
+
+# League Averages (Basketball Reference)
+```{r}
+url <- "https://www.basketball-reference.com/leagues/NBA_stats_per_game.html"
+leauge_avgs <- url |>
+  read_html() |>
+  html_element("table") |>    
+  html_table() |>             
+  clean_names()                
+
+```
+
 ## Description
+
 
 ## Missing value analysis
